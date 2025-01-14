@@ -1,0 +1,85 @@
+<div class="popup" *ngIf="showPopup">
+  <div class="popup-content">
+    <button class="close" (click)="closePopup()">&times;</button>
+
+    <div *ngIf="isLoggedIn; else loginRegister">
+      <h2>Bienvenido</h2>
+      <button class="logout" (click)="logout()">Cerrar Sesión</button>
+    </div>
+
+    <ng-template #loginRegister>
+      <div *ngIf="!isRegistering; else registerTemplate">
+        <h2>Iniciar Sesión</h2>
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
+          <div class="form-group">
+            <label for="login-email">Correo electrónico:</label>
+            <input
+              type="email"
+              id="login-email"
+              formControlName="email"
+              required
+              autocomplete="off"
+            />
+          </div>
+          <div class="form-group">
+            <label for="login-password">Contraseña:</label>
+            <input
+              type="password"
+              id="login-password"
+              formControlName="password"
+              required
+              autocomplete="off"
+            />
+          </div>
+          <button type="submit">Iniciar Sesión</button>
+          <button type="button" (click)="toggleRegister()">Registrarse</button>
+        </form>
+      </div>
+    </ng-template>
+
+    <ng-template #registerTemplate>
+      <h2>Registrarse</h2>
+      <form [formGroup]="registerForm" (ngSubmit)="register()">
+        <div class="form-group">
+          <label for="register-email">Correo electrónico:</label>
+          <input
+            type="email"
+            id="register-email"
+            formControlName="email"
+            required
+            autocomplete="off"
+          />
+        </div>
+        <div class="form-group">
+          <label for="register-password">Contraseña:</label>
+          <input
+            type="password"
+            id="register-password"
+            formControlName="password"
+            required
+            autocomplete="off"
+          />
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirmar Contraseña:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            formControlName="confirmPassword"
+            required
+            autocomplete="off"
+          />
+        </div>
+        <button type="submit">Registrarse</button>
+        <button type="button" (click)="toggleRegister()">Volver a Iniciar Sesión</button>
+      </form>
+    </ng-template>
+
+    <div *ngIf="registrationSuccess" class="success-message">
+      ¡Registrado correctamente!
+    </div>
+    <div *ngIf="loginSuccess" class="success-message">
+      ¡Inicio de sesión exitoso!
+    </div>
+  </div>
+</div>

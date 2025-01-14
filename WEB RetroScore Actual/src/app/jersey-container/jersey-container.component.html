@@ -1,0 +1,15 @@
+<div *ngIf="jerseys() && jerseys()!.length > 0; else noJerseys">
+    <div *ngFor="let jersey of jerseys()">
+        <app-jersey
+            [imageURL]="jersey.imageURL"
+            [team]="jersey.team"
+            [season]="jersey.season"
+            [price]="jersey.price"
+            [colour]="jersey.colour" 
+        ></app-jersey>
+    </div>
+</div>
+
+<ng-template #noJerseys>
+    <p>No se encontraron jerseys.</p>
+</ng-template>

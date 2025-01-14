@@ -1,0 +1,59 @@
+.containerBePart {
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(124, 122, 124);
+  color: white;
+  width: 100%;
+  z-index: 1000;
+  bottom: 0;
+}
+
+#flexBePart {
+  display: flex;
+  flex-direction: column;
+  padding-right: 500px;
+}
+
+#flexBePart p {
+  font-size: 17px;
+  font-weight: 300;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: -1px;
+  margin-top: 5px;
+  word-spacing: 3px;
+}
+
+#flexBePart h4 {
+  margin: 0px;
+  font-size: 35px;
+  font-family: 'GothamBold', sans-serif;
+  letter-spacing: -3px;
+}
+
+@media (max-width: 768px) {
+  .containerBePart {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  #flexBePart {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  #flexBePart p {
+    font-size: 14px;
+  }
+
+  #flexBePart h4 {
+    font-size: 28px;
+  }
+
+  .containerBePart a img {
+    width: 200px;
+    margin-top: 20px;
+  }
+}

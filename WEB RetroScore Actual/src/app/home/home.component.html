@@ -1,0 +1,18 @@
+<app-slider></app-slider>
+<h2>Más Vendidos</h2>
+
+<div class="jersey-grid-container">
+  <div class="jersey-grid">
+    <div class="jersey" *ngFor="let jersey of jerseys">
+      <app-jersey
+        [team]="jersey.team"
+        [price]="jersey.price"
+        [imageURL]="jersey.imageURL"
+        [season]="jersey.season"
+        [colour]="jersey.colour"
+        [jerseyId]="jersey._id"
+        (addToCartEvent)="addToCart(jersey)"
+      ></app-jersey>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<form class="search-form" (submit)="onSubmit($event)">
+  <input
+    type="text"
+    id="search"
+    [(ngModel)]="teamName"
+    placeholder="Buscar equipo"
+    name="search"
+    autocomplete="off"
+  />
+  <button type="submit" style="display: none;"></button>
+</form>

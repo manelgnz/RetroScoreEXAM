@@ -1,0 +1,53 @@
+<button class="filter-icon" (click)="toggleFilters()">
+  <img src="filter.png" alt="Toggle Filters">
+</button>
+<div class="sidebar-container">
+  <div class="main-sidebar">
+    <label (click)="selectFilter($event, '')" [class.selected]="selectedFilter === ''">
+      <input type="radio" name="liga" value="" (change)="onFilterChange()"> Todas
+    </label><br>
+    <label (click)="selectFilter($event, 'La Liga')" [class.selected]="selectedFilter === 'La Liga'">
+      <input type="radio" name="liga" value="La Liga" (change)="onFilterChange()"> La Liga
+    </label><br>
+    <label (click)="selectFilter($event, 'Premier league')" [class.selected]="selectedFilter === 'Premier league'">
+      <input type="radio" name="liga" value="Premier league" (change)="onFilterChange()"> Premier League
+    </label><br>
+    <label (click)="selectFilter($event, 'Serie A')" [class.selected]="selectedFilter === 'Serie A'">
+      <input type="radio" name="liga" value="Serie A" (change)="onFilterChange()"> Serie A
+    </label><br>
+    <label (click)="selectFilter($event, 'Bundesliga')" [class.selected]="selectedFilter === 'Bundesliga'">
+      <input type="radio" name="liga" value="Bundesliga" (change)="onFilterChange()"> Bundesliga
+    </label><br>
+    <label (click)="selectFilter($event, 'Ligue 1')" [class.selected]="selectedFilter === 'Ligue 1'">
+      <input type="radio" name="liga" value="Ligue 1" (change)="onFilterChange()"> Ligue 1
+    </label><br>
+  </div>
+
+  <!-- Barra que se abre cuando la ventana es pequeña -->
+</div>
+<div  [class.active]="filtersVisible" class="secundary-sidebar">
+  <button class="close-button" (click)="toggleFilters()">✕</button>
+
+  <div id="liga-filter">
+    <ul>
+      <li class="secundary-sidebar-item"><label (click)="selectFilter($event, '')" [class.selected]="selectedFilter === ''">
+        <input type="radio" name="liga" value="" (change)="onFilterChange()"> Todas
+      </label><br></li>
+      <li class="secundary-sidebar-item"><label (click)="selectFilter($event, 'La Liga')" [class.selected]="selectedFilter === 'La Liga'">
+        <input type="radio" name="liga" value="La Liga" (change)="onFilterChange()"> La Liga
+      </label><br></li>
+      <li class="secundary-sidebar-item"><label (click)="selectFilter($event, 'Premier league')" [class.selected]="selectedFilter === 'Premier league'">
+        <input type="radio" name="liga" value="Premier league" (change)="onFilterChange()"> Premier League
+      </label><br></li>
+      <li class="secundary-sidebar-item"><label (click)="selectFilter($event, 'Serie A')" [class.selected]="selectedFilter === 'Serie A'">
+        <input type="radio" name="liga" value="Serie A" (change)="onFilterChange()"> Serie A
+      </label><br></li>
+      <li class="secundary-sidebar-item"><label (click)="selectFilter($event, 'Bundesliga')" [class.selected]="selectedFilter === 'Bundesliga'">
+        <input type="radio" name="liga" value="Bundesliga" (change)="onFilterChange()"> Bundesliga
+      </label><br></li>
+      <li class="secundary-sidebar-item"><label (click)="selectFilter($event, 'Ligue 1')" [class.selected]="selectedFilter === 'Ligue 1'">
+        <input type="radio" name="liga" value="Ligue 1" (change)="onFilterChange()"> Ligue 1
+      </label><br></li>
+    </ul>
+  </div>
+</div>

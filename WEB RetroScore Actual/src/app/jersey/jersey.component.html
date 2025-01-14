@@ -1,0 +1,9 @@
+<div class="jersey">
+  <img [src]="imageURL" alt="{{ team }} Jersey">
+  <div class="jersey-details">
+    <h3>{{ team }}</h3>
+    <p>Temporada: {{ season }}</p>
+    <p>Precio: {{ price }} €</p>
+    <button (click)="addToCart()">Añadir a la cesta</button>
+  </div>
+</div>

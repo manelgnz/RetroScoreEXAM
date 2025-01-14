@@ -1,0 +1,483 @@
+[
+    {
+        "team": "FC Barcelona",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Barcelona-24-25.jpg?csf=1&web=1&e=HdbbQt"
+    },
+    {
+        "team": "Real Madrid",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Blanco",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/RealMadrid-24.jpg?csf=1&web=1&e=nkXvgJ"
+    },
+    {
+        "team": "Atletico Madrid",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/AtleticoMadrid-24.jpg?csf=1&web=1&e=ykfiTa"
+    },
+    {
+        "team": "Villarreal",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Amarillo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Villareal-24.jpg?csf=1&web=1&e=kf3dXN"
+    },
+    {
+        "team": "Athletic Bilbao",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/AtlethicClub-24-25.jpg?csf=1&web=1&e=bZND3U"
+    },
+    {
+        "team": "Osasuna",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Osasuna-24.jpg?csf=1&web=1&e=lwjh1j"
+    },
+    {
+        "team": "Mallorca",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Mallorca-24.jpg?csf=1&web=1&e=SyNb6l"
+    },
+    {
+        "team": "Real Betis",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Verde",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Betis-24.jpg?csf=1&web=1&e=zY4hre"
+    },
+    {
+        "team": "Real Sociedad",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/RealSociedad-24.jpg?csf=1&web=1&e=Z8Qbk1"
+    },
+    {
+        "team": "Celta de Vigo",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Celta-24.jpg?csf=1&web=1&e=KgUrkL"
+    },
+    {
+        "team": "Sevilla",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Sevilla-24.jpg?csf=1&web=1&e=jZMler"
+    },
+    {
+        "team": "Rayo Vallecano",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Blanco",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Rayo-24.jpg?csf=1&web=1&e=1HJy9M"
+    },
+    {
+        "team": "Leganes",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Blanco",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/leganes.jpg?csf=1&web=1&e=f9Uph4"
+    },
+    {
+        "team": "Getafe",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Getafe-24.jpg?csf=1&web=1&e=U38Lq1"
+    },
+    {
+        "team": "Alaves",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Alaves-24.jpg?csf=1&web=1&e=0AJfRP"
+    },
+    {
+        "team": "Las Palmas",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Amarillo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Palmas-24.jpg?csf=1&web=1&e=Yeogef"
+    },
+    {
+        "team": "Valencia",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Blanco",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Valencia-24.jpg?csf=1&web=1&e=VSJj6Z"
+    },
+    {
+        "team": "Girona",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Blanco",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Girona-24.jpg?csf=1&web=1&e=jDlToO"
+    },
+    {
+        "team": "Valladolid",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "La Liga",
+        "colour": "Morado",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/Valladolid-24.jpg?csf=1&web=1&e=lCWynz"
+    },
+    {
+        "team": "Arsenal",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/HxMnHy20yueSUI6.jpg?csf=1&web=1&e=KRtN32"
+    },
+    {
+        "team": "Aston Villa",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/AstonVilla-24.jpg?csf=1&web=1&e=8ueVfC"
+    },
+    {
+        "team": "Chelsea",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Blue",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/chelsea-24.jpg?csf=1&web=1&e=3WOkOg"
+    },
+    {
+        "team": "Crystal Palace",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/CrystalPalace-24.jpg?csf=1&web=1&e=kv364D"
+    },
+    {
+        "team": "Everton",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/Everton-24.jpg?csf=1&web=1&e=xVsaBa"
+    },
+    {
+        "team": "Fulham",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Blanco",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/fulham-24.jpg?csf=1&web=1&e=FgOk5I"
+    },
+    {
+        "team": "Leicester City",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/leicester-24.jpg?csf=1&web=1&e=BrogKx"
+    },
+    {
+        "team": "Liverpool",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/leicester-24.jpg?csf=1&web=1&e=BrogKx"
+    },
+    {
+        "team": "Manchester City",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Sky Blue",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/city-24.jpg?csf=1&web=1&e=fnRkb8"
+    },
+    {
+        "team": "Manchester United",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/united-24.jpg?csf=1&web=1&e=ZuOunz"
+    },
+    {
+        "team": "Newcastle",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Negro",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/newcastle-24.jpg?csf=1&web=1&e=FA6118"
+    },
+    {
+        "team": "Nottingham Forest",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/nothingam-24.jpg?csf=1&web=1&e=6Eb3wg"
+    },
+    {
+        "team": "Southampton",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/southampton-24.jpg?csf=1&web=1&e=asQbAS"
+    },
+    {
+        "team": "Tottenham Hotspur",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Premier league",
+        "colour": "Blanco",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/premier-24/nothingam-24.jpg?csf=1&web=1&e=6Eb3wg"
+    },
+    {
+        "team": "AC Milan",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Serie A",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/italia/milan.jpg?csf=1&web=1&e=v3K8pA"
+    },
+    {
+        "team": "AS Roma",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Serie A",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/italia/roma.jpg?csf=1&web=1&e=OP8LHW"
+    },
+    {
+        "team": "Atalanta",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Serie A",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/italia/atalanta.jpg?csf=1&web=1&e=5NZbuj"
+    },
+    {
+        "team": "Bologna",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Serie A",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/italia/bologna.jpg?csf=1&web=1&e=2aRNYK"
+    },
+    {
+        "team": "Fiorentina",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Serie A",
+        "colour": "Lila",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/italia/fiore.jpg?csf=1&web=1&e=bwpyw1"
+    },
+    {
+        "team": "Inter Milan",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Serie A",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/italia/inter.jpg?csf=1&web=1&e=CyBmHR"
+    },
+    {
+        "team": "Juventus",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Serie A",
+        "colour": "Negro",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/italia/juve.jpg?csf=1&web=1&e=bqf4Bx"
+    },
+    {
+        "team": "Lazio",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Serie A",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/italia/lazio.jpg?csf=1&web=1&e=32LLoN"
+    },
+    {
+        "team": "Napoli",
+        "price": 44.99,
+        "season": "24/25",
+        "league": "Serie A",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/italia/napli.jpg?csf=1&web=1&e=VXwzGi"
+    },
+    {
+        "team": "Torino",
+        "price": 29.99,
+        "season": "24/25",
+        "league": "Serie A",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/italia/torino.jpg?csf=1&web=1&e=bTm6Gj"
+    },
+    {
+        "team": "Bayern Munich",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Bundesliga",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/bundesliga/bayern.jpg?csf=1&web=1&e=AmCgfc"
+    },
+    {
+        "team": "Borussia Dortmund",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Bundesliga",
+        "colour": "Amarillo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/bundesliga/dortmund.jpg?csf=1&web=1&e=bIqBMP"
+    },
+    {
+        "team": "Bayer Leverkusen",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Bundesliga",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/bundesliga/Leverkusen.jpg?csf=1&web=1&e=DpBtwo"
+    },
+    {
+        "team": "Borussia Monchengladbach",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Bundesliga",
+        "colour": "Blanco",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/bundesliga/borussio%20mgblb.jpg?csf=1&web=1&e=AWNhYL"
+    },
+    {
+        "team": "Eintracht Frankfurt",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Bundesliga",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/bundesliga/frankfurt.jpg?csf=1&web=1&e=N2BRT2"
+    },
+    {
+        "team": "Leipzig",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Bundesliga",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/bundesliga/leipzig.jpg?csf=1&web=1&e=ZrHzB7"
+    },
+    {
+        "team": "Hoffenheim",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Bundesliga",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/bundesliga/hoffenheim.jpg?csf=1&web=1&e=ZqoXp5"
+    },
+    {
+        "team": "Stuttgart",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Bundesliga",
+        "colour": "Blanco",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/bundesliga/stuttgard.jpg?csf=1&web=1&e=pzKlAb"
+    },
+    {
+        "team": "Wolfsburg",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Bundesliga",
+        "colour": "Verde",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/bundesliga/wolfsburg.jpg?csf=1&web=1&e=9cRX4i"
+    },
+    {
+        "team": "Paris Saint-Germain",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Ligue 1",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/francia/psg.jpg?csf=1&web=1&e=TszQL3"
+    },
+    {
+        "team": "Marseille",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Ligue 1",
+        "colour": "Blanco",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/francia/marseille.jpg?csf=1&web=1&e=vsyzSh"
+    },
+    {
+        "team": "Lyon",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Ligue 1",
+        "colour": "Blanco",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/francia/ol.jpg?csf=1&web=1&e=mIa6rA"
+    },
+    {
+        "team": "Monaco",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Ligue 1",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/francia/monaco.jpg?csf=1&web=1&e=bmleXb"
+    },
+    {
+        "team": "Saint-Etienne",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Ligue 1",
+        "colour": "Verde",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/francia/ettiene.jpg?csf=1&web=1&e=0Hlopb"
+    },
+    {
+        "team": "Toulouse",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Ligue 1",
+        "colour": "Azul",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/francia/toulouse.jpg?csf=1&web=1&e=4supLh"
+    },
+    {
+        "team": "Lille",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Ligue 1",
+        "colour": "Rojo",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/francia/lille.jpg?csf=1&web=1&e=XjMaKo"
+    },
+    {
+        "team": "Montpellier",
+        "price": 44.99,
+        "season": "14/15",
+        "league": "Ligue 1",
+        "colour": "Naranja",
+        "imageURL": "https://rovira-my.sharepoint.com/:i:/r/personal/21160291-s_epp_urv_cat/Documents/3r%20any/tercer%20curs%20Q1/Enginyeria%20de%20Llocs%20Web/camisetas/francia/montpellier.jpg?csf=1&web=1&e=qimciC"
+    }
+  
+]

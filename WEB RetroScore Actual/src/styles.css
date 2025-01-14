@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('/fonts/Gotham-Font/Gotham-Light.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamBold';
+  src: url('/fonts/Gotham-Font/Gotham-Bold.otf') format('truetype');
+}
+
+.logo {
+  width: 300px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Tallas</title>
+    <link rel="stylesheet" href="tallaje.component.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Guía de tallas</h1>
+        <div class="underline"></div>
+        <p>IMPORTANTE: El talle, el fit y las medidas pueden variar de un estilo a otro. Consulte las medidas de la prenda plana que se proporcionan en la página de cada producto.</p>
+
+        <h2>Conversiones de tamaño internacional</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>XS</th>
+                    <th>S</th>
+                    <th>M</th>
+                    <th>L</th>
+                    <th>XL</th>
+                    <th>XXL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TALLA UK</td>
+                    <td>36</td>
+                    <td>38</td>
+                    <td>40</td>
+                    <td>42</td>
+                    <td>44</td>
+                    <td>46</td>
+                </tr>
+                <tr>
+                    <td>TALLA IT/FR/EU</td>
+                    <td>44</td>
+                    <td>46</td>
+                    <td>48</td>
+                    <td>50</td>
+                    <td>52</td>
+                    <td>54</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Medidas corporales</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>XS</th>
+                    <th>S</th>
+                    <th>M</th>
+                    <th>L</th>
+                    <th>XL</th>
+                    <th>XXL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PECHO (IN)</td>
+                    <td>38-40"</td>
+                    <td>42-44"</td>
+                    <td>44-46"</td>
+                    <td>46-48"</td>
+                    <td>48-50"</td>
+                    <td>52-54"</td>
+                </tr>
+                <tr>
+                    <td>PECHO (CM)</td>
+                    <td>96-101</td>
+                    <td>106-111</td>
+                    <td>112-117</td>
+                    <td>117-122</td>
+                    <td>122-127</td>
+                    <td>132-137</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Medidas de las prendas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>XS</th>
+                    <th>S</th>
+                    <th>M</th>
+                    <th>L</th>
+                    <th>XL</th>
+                    <th>XXL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Largo (CM)</td>
+                    <td>68</td>
+                    <td>70</td>
+                    <td>72</td>
+                    <td>74</td>
+                    <td>76</td>
+                    <td>78</td>
+                </tr>
+                <tr>
+                    <td>Ancho (CM)</td>
+                    <td>48</td>
+                    <td>50</td>
+                    <td>52</td>
+                    <td>54</td>
+                    <td>56</td>
+                    <td>58</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="como-medir">
+            <h2>Cómo medir</h2>
+            <p>Para obtener las medidas más precisas, use una cinta métrica y siga estas instrucciones:</p>
+            <ul>
+                <li><strong>Pecho:</strong> Mida alrededor de la parte más ancha de su pecho, manteniendo la cinta horizontal.</li>
+                <li><strong>Cintura:</strong> Mida alrededor de la parte más estrecha de su cintura, generalmente justo por encima del ombligo.</li>
+                <li><strong>Caderas:</strong> Mida alrededor de la parte más ancha de sus caderas, manteniendo la cinta horizontal.</li>
+            </ul>
+        </div>
+        <h2>Preguntas frecuentes</h2>
+        <button (click)="toggleFAQ()">Mostrar/Ocultar Preguntas frecuentes</button>
+        <div class="faq" *ngIf="showFAQ">
+            <p><strong>¿Cómo sé si una talla me quedará bien?</strong> Use la guía de tallas y las instrucciones de medición para encontrar su talla ideal.</p>
+            <p><strong>¿Las tallas son las mismas para todos los productos?</strong> No, las tallas pueden variar entre diferentes estilos y marcas entre 1-3cm en las medidas.</p>
+            <p><strong>¿Qué debo hacer si estoy entre dos tallas?</strong> Si estás entre dos tallas, te recomendamos elegir la talla más grande para mayor comodidad.</p>
+            <p><strong>¿Cómo puedo medir mi talla correctamente?</strong> Sigue las instrucciones en la sección "Cómo medir" para obtener las medidas más precisas.</p>
+        </div>
+    </div>
+</body>
+
+</html>

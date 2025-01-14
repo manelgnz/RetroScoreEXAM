@@ -1,0 +1,36 @@
+.jersey{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+}
+/*.jersey:hover {
+    transform:scale(1.1);
+    border: 1px  solid black;
+
+}*/
+
+h3{
+    font-weight: bold;
+    font-family: 'Gotham', sans-serif;
+    letter-spacing: -1px;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -1px;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+.jersey img {
+  width: 150px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}

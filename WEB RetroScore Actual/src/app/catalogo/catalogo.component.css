@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.jersey {
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  width: 300px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#barra-lateral {
+  height: 100%;
+  padding-bottom: 100%;
+  position: sticky;
+}
+
+.jersey-grid-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.jersey-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+app-sidebar-filter {
+  height: all;
+  position: sticky;
+  top: 0;
+  background-color: rgb(82, 77, 82);
+  z-index: 1000;
+}
+

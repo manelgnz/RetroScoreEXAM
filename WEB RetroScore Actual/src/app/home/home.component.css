@@ -1,0 +1,31 @@
+h2 {
+  font-family: 'Gotham', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  word-spacing: 5px;
+  letter-spacing: -3px;
+}
+
+.jersey-grid-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.jersey-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.jersey {
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}

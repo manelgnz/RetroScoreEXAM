@@ -1,0 +1,44 @@
+<header>
+  <div class="header-container">
+    <a [routerLink]="['/']">
+      <h1>RetroScore</h1>
+    </a>
+    <app-search-bar (search)="onSearch($event)"></app-search-bar>
+    <ul class="iconos">
+      <li>
+        <a (click)="openProfilePopup()">
+          <img [src]="userImage" alt="user">
+        </a>
+      </li>
+      <a [routerLink]="['/cesta']">
+        <li id="cart">
+          <img src="cart.png" alt="cart">
+        </li>
+      </a>
+      <li>
+        <button class="menu-button" (click)="toggleMenu()">
+          <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </button>
+      </li>
+    </ul>
+  </div>
+  <nav [class.active]="menuActive" class="sidebar">
+    <button class="close-button" (click)="toggleMenu()">✕</button>
+    <ul>
+      <li class="sidebar-item" *ngFor="let link of links">
+        <a [routerLink]="[link.path]">{{ link.label }}</a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="main-nav">
+    <ul class="apartados">
+      <li class="apartado" *ngFor="let link of links">
+        <a [routerLink]="[link.path]">{{ link.label }}</a>
+      </li>
+    </ul>
+  </nav>
+</header>

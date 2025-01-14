@@ -1,0 +1,134 @@
+.sidebar-container {
+  position: relative;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(82, 77, 82);
+  color: white;
+  height: all;
+  align-items: center;
+  text-align: center;
+}
+
+#liga-filter {
+  position: sticky;
+}
+
+input {
+  display: none;
+}
+
+.main-sidebar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(82, 77, 82);
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  height: 50px;
+  padding: 0px calc(20vw / 2);
+  justify-content: space-around; /* Añadir esta línea */
+}
+
+.main-sidebar label {
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.main-sidebar label.selected {
+  background-color: #c5b643; /* Cambia este color según tus necesidades */
+  border-radius: 20px;
+}
+
+.filter-icon {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000000;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.filter-icon img {
+  width: 38px;
+}
+
+.secundary-sidebar {
+  display: none;
+}
+
+.main-filter-container {
+  display: block;
+}
+
+@media (max-width: 870px) {
+  .main-sidebar {
+    display: none;
+  }
+
+  .filter-icon {
+    display: block;
+    z-index: 999;
+    background-color: rgb(82, 77, 82);
+    padding: 5px;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .sidebar-container{
+    display:none;
+  }
+
+  .secundary-sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Oculta la sidebar fuera de la pantalla */
+    width: 200px;
+    height: 100%;
+    background-color: rgb(82, 77, 82);
+    transition: left 0.3s ease;
+    padding-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .secundary-sidebar.active {
+    left: 0; /* Muestra la sidebar */
+    z-index: 50000;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 998;
+  }
+
+  .secundary-sidebar ul {
+    background-color: rgb(60, 60, 60);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+  }
+
+  .secundary-sidebar-item{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .secundary-sidebar-item label{
+    color: #fff;
+    font-size: 18px;
+  }
+
+}
