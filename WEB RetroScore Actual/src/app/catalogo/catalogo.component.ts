@@ -46,7 +46,7 @@ export class CatalogoComponent implements OnInit {
     });
   }
 
-  addToCart(jersey: Jersey): void {
+  addToCart(jersey: Jersey): void { // Method to add a jersey to the cart
     const user = this.apiService.getLoggedInUser();
     if (!user) {
       alert('Por favor, inicia sesión para añadir a la cesta');
