@@ -1,0 +1,11 @@
+<div class="event-list">
+    <h2>Event List</h2>
+    <ul>
+      <li *ngFor="let event of events$ | async">
+        <p><strong>{{ event.title }}</strong></p>
+        <p>{{ event.description }}</p>
+        <p><small>{{ event.createdAt | date }}</small></p>
+      </li>
+    </ul>
+  </div>
+  

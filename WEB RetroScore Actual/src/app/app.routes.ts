@@ -8,6 +8,7 @@ import { TallajeComponent } from './tallaje/tallaje.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ProfileComponent } from './profile/profile.component';
 import { JerseyContainerComponent } from './jersey-container/jersey-container.component';
+import { EventListComponent } from './event-list/event-list.component';
 
 export const routes: Routes = [
   {
@@ -54,5 +55,10 @@ export const routes: Routes = [
     path: 'profile',
     component: ProfileComponent,
     title: 'Perfil'
+  },
+  {
+    path: 'event-List',
+    component: EventListComponent,
+    title: 'Event List'
   }
 ];
