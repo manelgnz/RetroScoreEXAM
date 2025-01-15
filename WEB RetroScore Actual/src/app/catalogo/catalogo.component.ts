@@ -7,6 +7,7 @@ import { Title } from '@angular/platform-browser';
 import { SidebarFilterComponent } from '../sidebar-filter/sidebar-filter.component';
 import { JerseyComponent } from '../jersey/jersey.component';
 import { SearchBarComponent } from '../search-bar/search-bar.component';
+import { SessionService } from '../Services/session.service';
 
 @Component({
   selector: 'app-catalogo',
@@ -19,11 +20,20 @@ export class CatalogoComponent implements OnInit {
   route: ActivatedRoute = inject(ActivatedRoute);
   apiService = inject(ApiService);
   private titleService = inject(Title);
+  private sessionService = inject(SessionService);
   jerseys = signal<Jersey[]>([]); // Signal = Reactive variable that can be subscribed to
   filteredJerseys = signal<Jersey[]>([]);
 
   ngOnInit(): void {
     this.titleService.setTitle('RetroScore | Catálogo');
+    this.sessionService.recordVisit("catalogo").subscribe({
+      next: () => {
+        console.log('Visita registrada exitosamente');
+      },
+      error: (err: any) => {
+        console.error('Error al registrar la visita:', err);
+      }
+    });
     this.loadShirts();
     this.route.queryParams.subscribe(params => {
       const teamName = params['team'];

@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.titleService.setTitle('RetroScore | Home');
     this.loadJerseys();
-    this.sessionService.recordVisit().subscribe({
+    this.sessionService.recordVisit("home").subscribe({
       next: () => {
         console.log('Visita registrada exitosamente');
       },

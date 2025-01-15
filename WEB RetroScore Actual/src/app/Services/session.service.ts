@@ -24,14 +24,14 @@ export class SessionService {
   }
 
   // Registro visit en la db
-  recordVisit(): Observable<any> {
+  recordVisit(llocEvent: string): Observable<any> {
     const sessionId = this.getSessionId();
     const user = this.apiService.getLoggedInUser();
 
     const statData = {
       sessionId: sessionId,
       userId: user ? user._id : null,  // Si no usuari, null
-      llocEvent: 'home',  // event tipus home
+      llocEvent: llocEvent,  // event tipus home
       tipusEvent: 'visita',  // event tipus visita
     };
     
