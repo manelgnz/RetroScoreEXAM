@@ -1,9 +1,9 @@
 const express = require('express');
-const { createStats, getStats, getLastEvents } = require('./stats.controllers.js');
+const { createStat, getStats, getLastEvents } = require('./stats.controllers.js');
 
 const statsRouter = express.Router();
 
-statsRouter.post('/create', createStats);
+statsRouter.post('/create', createStat);
 statsRouter.get('/get', getStats);
 statsRouter.get('/last-events', getLastEvents);
 
