@@ -6,6 +6,8 @@ import { JerseyComponent } from "../jersey/jersey.component";
 import { SliderComponent } from "../slider/slider.component";
 import { CommonModule } from '@angular/common';
 import { forkJoin } from 'rxjs';
+import { SessionService } from '../Services/session.service';  // Inyectar el servicio
+
 
 @Component({
   selector: 'app-home',
@@ -18,12 +20,21 @@ export class HomeComponent implements OnInit {
    jerseys: Jersey[] = [];
   apiService = inject(ApiService);
   titleService = inject(Title);
+  sessionService = inject(SessionService);
 
   constructor() { }
 
   ngOnInit(): void {
     this.titleService.setTitle('RetroScore | Home');
     this.loadJerseys();
+    this.sessionService.recordVisit().subscribe({
+      next: () => {
+        console.log('Visita registrada exitosamente');
+      },
+      error: (err: any) => {
+        console.error('Error al registrar la visita:', err);
+      }
+    });
   }
 
   loadJerseys(): void {
