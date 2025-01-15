@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ApiService } from '../Services/api.service';
 import { Cart } from '../models/Cart';
 import { PopupService } from '../Services/popup.service';
+import { SessionService } from '../Services/session.service';
 
 @Component({
   selector: 'app-cesta',
@@ -13,12 +14,21 @@ import { PopupService } from '../Services/popup.service';
 })
 export class CestaComponent implements OnInit {
   private apiService = inject(ApiService);
+  private sessionService = inject(SessionService);
   cart: Cart | null = null;
   isLoggedIn: boolean = false;
   private popupService = inject(PopupService);
 
   ngOnInit(): void {
     this.isLoggedIn = this.apiService.isLoggedIn();
+    this.sessionService.recordVisit("cesta").subscribe({
+      next: () => {
+        console.log('Visita registrada exitosamente');
+      },
+      error: (err: any) => {
+        console.error('Error al registrar la visita:', err);
+      }
+    });
     if (this.isLoggedIn) {
         const user = this.apiService.getLoggedInUser(); // Obtiene el usuario actual
         console.log('Usuario recuperado:', user); // Verifica qué se está recuperando
