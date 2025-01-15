@@ -27,11 +27,12 @@ export class SessionService {
   recordVisit(): Observable<any> {
     const sessionId = this.getSessionId();
     const user = this.apiService.getLoggedInUser();
+
     const statData = {
       sessionId: sessionId,
-      userId: user ? user._id : null,  // Si està logued, guardo userId
-      llocEvent: 'home',  // event tipus 'home' per el registre visita
-      tipusEvent: 'visita',
+      userId: user ? user._id : null,  // Si no usuari, null
+      llocEvent: 'home',  // event tipus home
+      tipusEvent: 'visita',  // event tipus visita
     };
     
     return this.http.post('http://localhost:3000/Stats/create', statData);

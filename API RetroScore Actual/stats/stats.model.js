@@ -1,17 +1,14 @@
 const mongoose = require('mongoose');
 
 const statsSchema = new mongoose.Schema({
-    _id: {
-        type: String,
-        required: true 
-    },
+
     sessionId: {
         type: String,
         required: true
     },
     userId: {
         type: String,
-        required: true
+        required: false
     },
     llocEvent: {
         type: String,

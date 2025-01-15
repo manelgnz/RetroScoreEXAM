@@ -2,17 +2,16 @@ const mongoose = require('mongoose');
 const { StatsModel } = require('./stats.model.js');
 
 async function createStat(req, res) {
-    const { _id, sessionId, userId, llocEvent, tipusEvent } = req.body;
+    const {  sessionId, userId, llocEvent, tipusEvent } = req.body;
 
-    if (!_id || !sessionId || !llocEvent || !tipusEvent) {
+    if (!sessionId || !llocEvent || !tipusEvent) {
         return res.status(400).json({
-            message: 'Faltan campos requeridos: _id, sessionId, llocEvent, tipusEvent.',
+            message: 'Faltan campos requeridos: sessionId, llocEvent, tipusEvent.',
         });
     }
 
     try {
         const newStat = new StatsModel({
-            _id,
             sessionId,
             userId: userId || null, // null si no està registrat
             llocEvent,
