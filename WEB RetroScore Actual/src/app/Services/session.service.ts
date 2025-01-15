@@ -37,4 +37,18 @@ export class SessionService {
     
     return this.http.post('http://localhost:3000/Stats/create', statData);
   }
+
+  recordRetroScoreClick(): Observable<any> {
+    const sessionId = this.getSessionId();
+    const user = this.apiService.getLoggedInUser();
+  
+    const statData = {
+      sessionId: sessionId,
+      userId: user ? user._id : null,  // Si no hay usuario, se pasa null
+      llocEvent: 'home',               // El evento de click ocurre en la página Home
+      tipusEvent: 'click',             // Evento de tipo "click" en RetroScore
+    };
+  
+    return this.http.post('http://localhost:3000/Stats/create', statData);
+  }
 }
