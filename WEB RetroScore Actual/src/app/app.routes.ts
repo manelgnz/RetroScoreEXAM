@@ -57,7 +57,7 @@ export const routes: Routes = [
     title: 'Perfil'
   },
   {
-    path: 'event-List',
+    path: 'event-list',
     component: EventListComponent,
     title: 'Event List'
   }

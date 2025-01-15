@@ -92,7 +92,6 @@ export class HeaderComponent implements OnInit {
     { path: '/tallaje', label: 'Tallaje' },
     { path: '/about-us', label: 'Sobre Nosotros' },
     { path: '/cesta', label: 'Cesta' },
-    { path: '/event-list', label: 'Event-List' },
-
+    { path: '/event-list', label: 'Event List' },
   ];
 }
