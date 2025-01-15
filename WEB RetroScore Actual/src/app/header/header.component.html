@@ -10,7 +10,7 @@
           <img [src]="userImage" alt="user">
         </a>
       </li>
-      <a [routerLink]="['/cesta']">
+      <a (click)="onCartClick()">
         <li id="cart">
           <img src="cart.png" alt="cart">
         </li>

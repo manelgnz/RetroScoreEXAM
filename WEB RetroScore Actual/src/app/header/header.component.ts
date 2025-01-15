@@ -71,6 +71,21 @@ export class HeaderComponent implements OnInit {
     });
   }
 
+  onCartClick(): void {
+    this.sessionService.recordCartButtonClick().subscribe({
+      next: () => {
+        console.log('Clic en la cesta registrado exitosamente');
+        // Redirigir a la cesta después de registrar el clic
+        this.router.navigate(['/cesta']);
+      },
+      error: (err: any) => {
+        console.error('Error al registrar el clic en la cesta:', err);
+        // Redirigir a la cesta si hay error también
+        this.router.navigate(['/cesta']);
+      },
+    });
+  }
+
   links = [
     { path: '/', label: 'Inicio' },
     { path: '/catalogo', label: 'Catálogo' },

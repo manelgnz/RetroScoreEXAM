@@ -46,9 +46,23 @@ export class SessionService {
       sessionId: sessionId,
       userId: user ? user._id : null,  
       llocEvent: 'header',               
-      tipusEvent: 'click',             
+      tipusEvent: 'click',
     };
   
+    return this.http.post('http://localhost:3000/Stats/create', statData);
+  }
+
+  recordCartButtonClick(): Observable<any> {
+    const sessionId = this.getSessionId();
+    const user = this.apiService.getLoggedInUser();
+
+    const statData = {
+      sessionId: sessionId,
+      userId: user ? user._id : null,  // Si no hay usuario, se pone null
+      llocEvent: 'cesta',  // Evento del clic en la cesta
+      tipusEvent: 'click',
+    };
+
     return this.http.post('http://localhost:3000/Stats/create', statData);
   }
 }
