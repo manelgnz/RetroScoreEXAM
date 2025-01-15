@@ -1,6 +1,6 @@
 <header>
   <div class="header-container">
-    <a [routerLink]="['/']">
+    <a (click)="onRetroScoreClick()">
       <h1>RetroScore</h1>
     </a>
     <app-search-bar (search)="onSearch($event)"></app-search-bar>

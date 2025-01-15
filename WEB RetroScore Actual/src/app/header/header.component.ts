@@ -5,6 +5,7 @@ import { PopupService } from '../Services/popup.service';
 import { SearchBarComponent } from '../search-bar/search-bar.component';
 import { ApiService } from '../Services/api.service';
 import { Jersey } from '../models/Jersey';
+import { SessionService } from '../Services/session.service';
 
 @Component({
   selector: 'app-header',
@@ -21,6 +22,7 @@ export class HeaderComponent implements OnInit {
   filteredJerseys = signal<Jersey[]>([]);
   isLoggedIn = false;
   userImage = 'user.png';
+  sessionService = inject(SessionService);
 
   constructor(private popupService: PopupService, private router: Router) { }
 
@@ -30,9 +32,9 @@ export class HeaderComponent implements OnInit {
         this.menuActive = false;
       }
     });
-
     this.checkLoginStatus();
   }
+
 
   checkLoginStatus(): void {
     this.isLoggedIn = this.apiService.isLoggedIn();
@@ -53,6 +55,20 @@ export class HeaderComponent implements OnInit {
 
   onSearch(teamName: string): void {
     this.router.navigate(['/catalogo'], { queryParams: { team: teamName } });
+  }
+
+  onRetroScoreClick(): void {
+    this.sessionService.recordButtonClick().subscribe({
+      next: () => {
+        console.log('Clic registrado exitosamente');
+        // si registra el clic, go home
+        this.router.navigate(['/']);
+      },
+      error: (err: any) => {
+        console.error('Error al registrar el clic:', err);
+        this.router.navigate(['/']);
+      },
+    });
   }
 
   links = [
