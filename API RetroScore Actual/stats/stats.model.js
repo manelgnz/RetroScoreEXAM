@@ -29,7 +29,7 @@ const statsSchema = new mongoose.Schema({
     },
 },);
 
-const statsModel = mongoose.model('Stats', statsSchema);
+const StatsModel = mongoose.model('Stats', statsSchema);
 
-module.exports = { statsModel };
+module.exports = { StatsModel };
 

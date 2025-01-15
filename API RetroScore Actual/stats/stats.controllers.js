@@ -32,17 +32,18 @@ async function getStats(req, res) {
     const { dataInici, dataFinal, llocEvent, tipusEvent } = req.query;
 
     try {
-        // filtres dinàmics
         const filters = {};
+
+        // Si existeixen els paràmetres, afegir-los als filtres
         if (dataInici) filters.createdAt = { $gte: new Date(dataInici) };
         if (dataFinal) filters.createdAt = { ...filters.createdAt, $lte: new Date(dataFinal) };
         if (llocEvent) filters.llocEvent = llocEvent;
         if (tipusEvent) filters.tipusEvent = tipusEvent;
 
-        // Buscar estadístiques segons el filtre
+        // Buscar estadístiques amb els filtres
         const stats = await StatsModel.find(filters);
 
-        // Calcular n visites y clics
+        // Contar visites i clics
         const visits = stats.filter(stat => stat.tipusEvent === 'visita').length;
         const clicks = stats.filter(stat => stat.tipusEvent === 'click').length;
 
